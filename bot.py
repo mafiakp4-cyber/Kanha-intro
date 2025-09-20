@@ -8,7 +8,7 @@ from flask import Flask
 # 🔑 Config
 API_ID = int(os.environ.get("API_ID", 21302239))
 API_HASH = os.environ.get("API_HASH", "1560930c983fbca6a1fcc8eab760d40d")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8040887080:AAGrOVmImlAQDJi9VhuL0o_yvaKUTdo2hnU")
 
 # Pyrogram Client
 app = Client(
